@@ -85,7 +85,7 @@ function App() {
             <Input
               value={excludeExtensions}
               onChange={(e) => setExcludeExtensions(e.target.value)}
-              placeholder="e.g., .txt, .jpg"
+              placeholder="e.g., txt, jpg, png"
               style={{
                 borderRadius: "8px",
                 boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
